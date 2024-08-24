@@ -14,6 +14,7 @@ function ordenar(nums) {
         };
     } while (swap)
 
+    console.log(nums);
     return nums;
 };
 
