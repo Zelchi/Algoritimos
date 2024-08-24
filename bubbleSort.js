@@ -1,5 +1,3 @@
-const numbers = [9, 4, 200, 10, 333, 10, 15, 2, 12, 3, 10, 100, 14, 13];
-
 function ordenar(nums) {
     let t = nums.length;
     let swap;
@@ -19,4 +17,4 @@ function ordenar(nums) {
     return nums;
 };
 
-console.log(ordenar(numbers));
+module.exports = ordenar;
